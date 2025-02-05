@@ -3,7 +3,7 @@ import { Router } from 'express';
 import ProductManager from '../fileManager/productManagerMemory.js'; // Importación de ProductManager
 const router = Router();
 let products = ProductManager.leerProductos();
-//let products = new ProductManager(); // Creación de una instancia de ProductManager
+
 
 // Función para generar IDs únicos
 const generateId = (array) => {
